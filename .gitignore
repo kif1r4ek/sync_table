@@ -1,0 +1,30 @@
+# Зависимости
+node_modules/
+
+# Переменные окружения (секреты)
+.env
+.env.local
+.env.production
+
+# Логи
+logs/
+*.log
+npm-debug.log*
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# IDE настройки
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Сборка
+dist/
+build/
+
+# Временные файлы
+*.tmp
+*.temp
